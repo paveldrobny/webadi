@@ -4,8 +4,8 @@ tagline: АДИ ДОННТУ
 email: kirill.a.kirillov@gmail.com
 description: >
   Сайт Автомобильно-дорожного института «ДОННТУ»
-baseurl: #"/webadi"
-url: "https://paveldrobny.github.io/webadi"
+baseurl: "/webadi"
+url: "https://paveldrobny.github.io/webadi/"
 
 permalink: pretty
 #favicon: /path/to/favicon.png

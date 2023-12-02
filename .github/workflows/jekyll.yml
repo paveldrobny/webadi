@@ -1,0 +1,47 @@
+name: Jekyll site CI/CD
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Cloning master branch
+      uses: actions/checkout@v2
+      with:
+        ref: 'master'
+        path: 'master'
+
+    - name: Building site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}/master:/srv/jekyll -v ${{ github.workspace }}/master/_site:/srv/jekyll/_site \
+        veerendrav2/my-jekyll:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+    - name: Cloning master branch
+      uses: actions/checkout@v2
+      with:
+        ref: 'gh-pages'
+        path: 'gh-pages'
+
+    - name: Copying _site content to gh-pages branch repo
+      run: cp -R ${{ github.workspace }}/master/_site/* ${{ github.workspace }}/gh-pages
+
+    - name: Commit files
+      run: |
+        cd ${{ github.workspace }}/gh-pages
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add *
+        git commit -m "New changes" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@gh-pages
+      with:
+        directory: ${{ github.workspace }}/mastgh-pageser
+        branch: 'gh-pages'
+        github_token: ${{ secrets.GITHUB_TOKEN }}

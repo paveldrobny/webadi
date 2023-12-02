@@ -9,7 +9,7 @@ hero_image: /img/111_1140_cr_336666.jpg
 menubar: f-sidebar
 ---
 
-<p class="title is-5">Вступительная компания 2023</p>
+<p class="title is-5">Вступительная компания 12023</p>
 <div class="tile is-ancestor">
     <div class="tile is-parent">
         <article class="tile is-child box">

@@ -1,0 +1,12 @@
+- label: Department "Automobile Roads and Artificial Structures"
+  items:
+    - name: About the department
+      link: /en/faculty/dt/kf-adis/about
+    - name: Staff of the department
+      link: /en/faculty/dt/kf-adis/staff
+    - name: Science
+      link: /en/faculty/dt/kf-adis/science
+    - name: Disciplines
+      link: /en/faculty/dt/kf-adis/discipline
+    - name: Contacts
+      link: /en/faculty/dt/kf-adis/contacts

@@ -1,0 +1,30 @@
+- label: Сведения об образовательной организации
+  items:
+    - name: Основные сведения
+      link: /sveden/common/
+    - name: Структура и органы управления образовательной организацией
+      link: /sveden/struct/
+    - name: Документы
+      link: /sveden/document/
+    - name: Образование
+      link: /sveden/education/
+    - name: Образовательные стандарты и требования
+      link: /sveden/eduStandarts/
+    - name: Руководство. Педагогический (научно-педагогический) состав
+      link: /sveden/employees/
+    - name: Материально-техническое обеспечение и оснащенность образовательного процесса
+      link: /sveden/objects/
+    - name: Стипендии и меры поддержки обучающихся
+      link: /sveden/grants/
+    - name: Платные образовательные услуги
+      link: /sveden/paid_edu/
+    - name: Финансово-хозяйственная деятельность
+      link: /sveden/budget/
+    - name: Вакантные места для приема (перевода) обучающихся
+      link: /sveden/vacant/
+    - name: Доступная среда
+      link: /sveden/ovz/
+    - name: Международное сотрудничество
+      link: /sveden/inter/
+    - name: Абитуриенту
+      link: /sveden/abitur/

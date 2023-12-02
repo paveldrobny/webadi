@@ -1,0 +1,20 @@
+---
+layout: post-test
+title:  "Поездка в Кузбасс (день второй)"
+date:   2023-11-21
+description: "Поездка в Кузбасс (день второй)"
+image: '/img/2023/Ne_FsEvOjFM-min.jpg'
+hero_image: 
+hero_height: is-medium
+published: true
+excerpt_separator: <!--more-->
+canonical_url: 
+tags: ['Кузбасс']
+author:
+permalink: "blog/14"
+---
+
+18.11.2023 Пленарная сессия « Кузбасс студенческий регион<!--more-->: история. современный опыт, стратегия будущего. Заглада Р.Ю. выступил с докладом.
+Программа очень насыщена.
+
+![Поездка в Кузбасс](/img/2023/Ne_FsEvOjFM-min.jpg)

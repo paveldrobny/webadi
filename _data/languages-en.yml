@@ -1,0 +1,9 @@
+ru:
+  icon: <i class="em em-ru" aria-role="presentation" aria-label="Russia Flag"></i>
+  label: Russian
+ua:
+  icon: <i class="em em-flag-ua" aria-role="presentation" aria-label="Ukraine Flag"></i>
+  label: Ukrainian
+en:
+  icon: <i class="em em-us" aria-role="presentation" aria-label="United States Flag"></i>
+  label: English

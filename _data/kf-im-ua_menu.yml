@@ -1,0 +1,12 @@
+- label: Кафедра "Іноземні мови"
+  items:
+    - name: Про кафедру
+      link: /ua/faculty/tiit/kf-im/about
+    - name: Склад кафедри
+      link: /ua/faculty/tiit/kf-im/staff
+    - name: Наукова діяльність
+      link: /ua/faculty/tiit/kf-im/science
+    - name: Дисципліни
+      link: /ua/faculty/tiit/kf-im/discipline
+    - name: Контакти
+      link: /ua/faculty/tiit/kf-im/contacts

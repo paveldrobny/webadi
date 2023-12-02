@@ -1,0 +1,27 @@
+<p class="title is-5">Факультеты</p>
+
+<div class="columns is-multiline">
+  <div class="column is-12">
+    {% for post in site.faculty %}
+    <div class="card">
+      <div class="card-content">
+        <p class="title is-5">{{post.title}}</p>
+        <!-- <p class="subtitle">Факультет</p> -->
+        <div class="container">
+          <figure class="image container is-128x128">
+            <img style="border-radius: 10px;" src="{{post.img}}" alt="Факультет ДТ" />
+          </figure>
+        </div>
+        <br />
+        <div class="content">
+          {{post.content}}
+        </div>
+        <div class="has-text-centered">
+          <a href="{{post.url_about}}" class="button is-primary">Подробнее...</a>
+        </div>
+      </div>
+    </div>
+    <br/>
+    {% endfor %}
+  </div>
+</div>

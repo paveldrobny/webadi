@@ -1,0 +1,144 @@
+<nav class="navbar is-primary">
+  <div class="container">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="/">
+      <img src="/img/navlogo.png" alt="АДІ ДонНТУ" width="22" >
+    </a>
+    <a class="navbar-item" href="/">
+      <p class="is-size-5">АДІ "ДонНТУ"</p>
+    </a>
+
+    <div class="navbar-burger burger" data-target="navMenubd">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div id="navMenubd" class="navbar-menu">
+    <div class="navbar-start">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="/documentation/overview/start/">
+          <i class="fas fa-university"></i>&emsp;Про інститут
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item " href="/documentation/overview/start/">Відомості про освітню організацію</a>
+          <a class="navbar-item " href="#">Звернення</a>
+          <a class="navbar-item " href="#">Документи</a>
+          <a class="navbar-item " href="#">Історія АДИ ДонНТУ</a>
+        </div>
+      </div>
+      <div class="navbar-item has-dropdown is-hoverable is-mega">
+        <div class="navbar-link">
+          <i class="far fa-building"></i>&emsp;Структура АДИ ДонНТУ"
+        </div>
+        <div id="blogDropdown" class="navbar-dropdown is-boxed" data-style="width: 18rem;">
+          <div class="container is-fluid">
+            <div class="columns">
+              <div class="column">
+                
+                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                  <div class="navbar-content">
+                    <p>Научно-исследовательская часть</p>
+                  </div>
+                </a>
+                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                  <div class="navbar-content">
+                    <p>Центр информационных компьютерных технологий</p>
+                  </div>
+                </a>
+                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                  <div class="navbar-content">
+                    <p>Отдел Администрирования и WEB-технологий</p>
+                  </div>
+                </a>
+                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                  <div class="navbar-content">
+                    <p>Учебная часть</p>
+                  </div>
+                </a>
+              </div>
+              <div class="column">
+
+                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                  <div class="navbar-content">
+                    <p>Редакционно-издательский отдел</p>
+                  </div>
+                </a>
+                <a class="navbar-item " href="/documentation/overview/start/">Центр ОМОРОМ</a>
+                <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">Профсоюз</a>
+                <a class="navbar-item " href="http://bulma.io/documentation/columns/basics/">Отборочная комиссия</a>
+              </div>
+              <div class="column">
+
+                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                  <div class="navbar-content">
+                    <p>Библиотека</p>
+                  </div>
+                </a>
+                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                  <div class="navbar-content">
+                    <p>Учебно-производственные мастерские</p>
+                  </div>
+                </a>
+                <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                  <div class="navbar-content">
+                    <p>Приёмная комиссия</p>
+                  </div>
+                </a>
+
+              </div>
+              <div class="column">
+                <a class="navbar-item " href="#">Студенческий клуб</a>
+                <a class="navbar-item " href="#">Студенческий профком</a>
+                <a class="navbar-item " href="#">НИЦ автомобильного транспорта</a>
+                <a class="navbar-item " href="#">Учебный корпус №1</a>
+                <a class="navbar-item " href="#">Учебный корпус №2</a>
+                <a class="navbar-item " href="#">Общежитие №1</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <div class="navbar-link">
+          <i class="fas fa-atom"></i>&emsp;Наука
+        </div>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item " href="/documentation/overview/start/">Сведения об образовательной организации</a>
+          <a class="navbar-item " href="#">Обращение</a>
+          <a class="navbar-item " href="#">Документы</a>
+          <a class="navbar-item " href="#">История АДИ ДонНТУ</a>
+        </div>
+      </div>
+      <a class="navbar-item " href="#">
+        <i class="fab fa-cloudversify"></i>&emsp;ЕІОС
+      </a>
+      <a class="navbar-item " href="/blog/">
+        <i class="far fa-newspaper"></i>&emsp;Новини
+      </a>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          <i class="fas fa-globe"></i>&emsp;{{ site.data.translations['language'][page.lang] }}
+        </a>
+        <div class="navbar-dropdown is-right is-boxed">
+          {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+          {% if posts.size == 0 %}
+          {% assign posts=site.pages | where:"ref", page.ref | sort: 'lang' %}
+          {% endif %}
+          {% for post in posts %}
+          <a class="navbar-item" href="{{ site.baseurl }}{{ post.url }}">{{ site.data.languages-ua[post.lang].icon }}&emsp;{{ site.data.languages-ua[post.lang].label }}
+            {% endfor %}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    
+
+   
+    
+    
+</nav>

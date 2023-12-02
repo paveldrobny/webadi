@@ -1,0 +1,54 @@
+- label: Библиотека АДИ
+  items:
+    - name: О библиотеке
+      link: /
+    - name: Структура и Фонды
+      link: /ru/dep/library/struct/
+    - name: Электронно-библиотечная система
+      link: #
+      items:
+        - name: Электронный архив
+          link: /http://ea.donntu.org:8080/jspui/
+        - name: Электронный каталог
+          link: /http://unilib.adidonntu.ru/welcome.jsf/
+        - name: Репозиторий
+          link: /http://repo.adidonntu.ru/
+        - name: Книгообеспеченность кафедр
+          link: /http://books.adidonntu.ru/
+    - name: Информационные ресурсы
+      link: #
+      items:
+        - name: Электронный архив
+          link: /page-1/
+        - name: Электронные ресурсы в свободном доступе
+          link: /page-2/
+        - name: Тестовые доступы
+          link: /page-3/
+        - name: Виртуальные выставки
+          link: /http://lib.adidonntu.ru/
+        - name: Полезные ссылки
+          link: /http://lib.adidonntu.ru/nodes/%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8#
+        - name: Условия пользования ресурсами
+          link: /page-3/
+    - name: Издания
+      link: #
+      items:
+        - name: Издания сотрудников
+          link: /page-1/
+        - name: Газета "Магистраль"
+          link: /page-2/
+        - name: ВЕСТИ Автомобильно-дорожного института=Bulletin of the Automobile and Highway Institute
+          link: /page-3/
+    - name: Материально-техническое обеспечение и оснащенность образовательного процесса
+      link: /blog/
+    - name: Электронные сервисы on-line
+      link: #
+      items:
+        - name: Межбиблиотечный абонемент
+          link: /page-1/
+        - name: ЭДД
+          link: /page-2/
+        - name: Виртуальная справка
+          link: /page-3/
+    - name: Библиотеки и научно-информационные центры
+      link: /ru/dep/library/nic/

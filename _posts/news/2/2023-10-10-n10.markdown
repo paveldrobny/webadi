@@ -1,0 +1,17 @@
+---
+layout: post-test
+title: "Изменение банковских реквизитов АДИ ФГБОУВО «Донецкий национальный технический университет»"
+date: 2023-10-10
+description: "Изменение банковских реквизитов АДИ ФГБОУВО «Донецкий национальный технический университет»"
+image: "/img/2023/09-19-changing-bank-details.jpg"
+hero_image:
+hero_height: is-medium
+published: true
+excerpt_separator: <!--more-->
+canonical_url:
+author:
+permalink: "blog/10"
+---
+
+Изменение банковских реквизитов <!--more-->
+<img alt="Изменение банковских реквизитов АДИ ФГБОУВО" width="800" src="/img/2023/09-19-changing-bank-details.jpg"/>

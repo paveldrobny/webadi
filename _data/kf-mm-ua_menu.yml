@@ -1,0 +1,12 @@
+- label: Кафедра "Математичне моделювання"
+  items:
+    - name: Про кафедру
+      link: /ua/faculty/tiit/kf-mm/about
+    - name: Склад кафедри
+      link: /ua/faculty/tiit/kf-mm/staff
+    - name: Наукова діяльність
+      link: /ua/faculty/tiit/kf-mm/science
+    - name: Дисципліни
+      link: /ua/faculty/tiit/kf-mm/discipline
+    - name: Контакти
+      link: /ua/faculty/tiit/kf-mm/contacts

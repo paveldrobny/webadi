@@ -1,0 +1,12 @@
+- label: Кафедра "Автомобільні дороги і штучні спорудження"
+  items:
+    - name: Про кафедру
+      link: /ua/faculty/dt/kf-adis/about
+    - name: Склад кафедри
+      link: /ua/faculty/dt/kf-adis/staff
+    - name: Наукова діяльність
+      link: /ua/faculty/dt/kf-adis/science
+    - name: Дисципліни
+      link: /ua/faculty/dt/kf-adis/discipline
+    - name: Контакти
+      link: /ua/faculty/dt/kf-adis/contacts

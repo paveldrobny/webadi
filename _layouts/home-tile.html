@@ -1,0 +1,114 @@
+{% if page.menubar and page.show_sidebar %}
+{% assign content_width = 'is-6' %}
+{% elsif page.menubar or page.show_sidebar %}
+{% assign content_width = 'is-9' %}
+{% else %}
+{% assign content_width = 'is-12' %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+{% include head.html %}
+
+<body>
+    
+    <script src="{{ site.baseurl }}/assets/lightgallery/js/lightgallery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/lightgallery/js/lg-thumbnail.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/lightgallery/js/lg-fullscreen.min.js"></script>    
+
+  <style type="text/css">
+    .section.b {
+      background-color: rgb(255, 255, 255);
+      background-position-x: center;
+      background-position-y: top;
+      background-repeat: repeat;
+      background-attachment: fixed;
+      background-image: url("/img/bodyback.png");
+      background-size: auto;
+      background-origin: padding-box;
+      background-clip: border-box;
+    }
+    .tile.b {
+      background-color: rgba(238, 238, 238, 0.71);
+      background-position-x: center;
+      background-position-y: top;
+      background-repeat: repeat;
+      background-attachment: fixed;
+      background-size: auto;
+      background-origin: padding-box;
+      background-clip: border-box;
+    }
+        
+  </style>
+  {% include header2row.html %}
+  {% include header-ru.html %}
+
+  {% unless page.hide_hero %}
+  {% include hero-test.html %}
+  {% endunless %}
+  {% include headertwo.html %}
+  {% include callouts.html %}
+  
+  <section class="b section">
+    <div class="container">
+
+<div class="b tile is-ancestor">
+  {% if page.menubar %}
+  <div class="b tile is-parent">
+{% include faculty-sidebar.html %}
+
+  </div>
+  {% endif %}
+  <div class="b tile is-parent {{ content_width }}">
+          {% include tabs.html %}
+          {% include showcase.html %}
+          {{ content }}
+  </div>
+  {% if site.posts and page.show_sidebar %}
+  <div class="b tile is-parent">
+{% include latest-posts.html %}
+  </div>
+  {% endif %}
+</div>
+    <div class="b tile is-parent">
+      <article class="b tile is-child box">
+        <p class="title">Wide column</p>
+        <p class="subtitle">Aligned with the right column</p>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+        </div>
+      </article>
+    </div>
+
+    </div>
+      </section>
+
+
+
+  
+  <section class="b hero is-small has-background-grey-lighter">
+    <div class="hero-body">
+      <nav class="level container">
+        <p class="level-item has-text-centered">
+          <a href="http://donntu.org/"><img src="/img/donntu-logo.png" alt="ДонНТУ" style="height: 110px;"></a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a href="http://e.adidonntu.ru/"><img src="/img/e-adi-bw.png" alt="е-АДИ" style="height: 110px;"></a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a href="http://vestnik.adidonntu.ru/"><img src="/img/vesti-logo.png" alt="Вести АДИ" style="height: 110px;"></a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a href="https://ois.pp.ua/"><img src="/img/mag-logo.png" alt="Газета АДИ Магистраль" style="height: 110px;"></a>
+        </p>
+      </nav>
+    </div>
+  </section>
+  {% unless page.hide_footer %}
+  {% include footer.html %}
+  {% endunless %}
+  <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
+  {%- include footer-scripts.html -%}
+
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+# Site Settings
+title: Автомобильно-дорожный институт  «ДОННТУ»
+tagline: АДИ ДОННТУ
+email: kirill.a.kirillov@gmail.com
+description: >
+  Сайт Автомобильно-дорожного института «ДОННТУ»
+baseurl: #"/webadi"
+url: "https://paveldrobny.github.io/webadi"
+
+permalink: pretty
+#favicon: /path/to/favicon.png
+
+paginate: 10
+paginate_path: "/blog/page:num"
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+  shortname: kakirillov
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
+
+exclude: 
+  - Gemfile
+  - webadi.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+#google_analytics: UA-code-here
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "iADI"
+      layout: post
+      image: https://via.placeholder.com/1200x800
+      show_sidebar: true
+  -
+     scope:
+         path: ru
+     values:
+         layout: page
+         lang: en
+         base-url: "/ru/"
+         show_sidebar: true
+  -
+     scope:
+         path: ua
+     values:
+         layout: page
+         lang: ua
+         base-url: "/ua/"
+         show_sidebar: true
+  -
+     scope:
+         path: en
+     values:
+         layout: page
+         lang: en
+         base-url: "/en/"
+         show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: example_footer_menu
+
+collections:
+  abiturient:
+    output: true
+    layout: abiturient
+    permalink: abiturient
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  faculty:
+    output: true
+    layout: faculty
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+  products: 
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
+
+locale: ru    
+lang: ru 
+languages: ["ua", "ru", "en"]

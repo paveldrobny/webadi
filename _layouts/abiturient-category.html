@@ -1,0 +1,19 @@
+---
+layout: default-test2
+---
+
+<div class="columns is-multiline">
+  <div class="column is-12">{{ page.content }}</div>
+
+  {% assign sorted_array = site.abiturient | sort:'title' %}
+
+  <ul>
+    {% for abitur in sorted_array order:descending %}
+    <li>
+      <a href="{{ abitur.url | relative_url }}">
+        <h1>{{abitur.title}}</h1>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

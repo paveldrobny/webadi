@@ -1,0 +1,12 @@
+- label: Department of General Engineering Disciplines
+  items:
+    - name: About the department
+      link: /en/faculty/dt/kf-od/about
+    - name: Staff of the department
+      link: /en/faculty/dt/kf-od/staff
+    - name: Science
+      link: /en/faculty/dt/kf-od/science
+    - name: Disciplines
+      link: /en/faculty/dt/kf-od/discipline
+    - name: Contacts
+      link: /en/faculty/dt/kf-od/contacts

@@ -1,0 +1,10 @@
+style: is-light
+items:
+  - title: Факультет
+    subtitle: "Дорожно-транспортный"
+    icon: fa-copy
+    link: /ru/faculty/dt
+  - title: Факультет
+    subtitle: "Транспортные и информационные технологии"
+    icon: fa-mail-bulk
+    link: /ru/faculty/tiit

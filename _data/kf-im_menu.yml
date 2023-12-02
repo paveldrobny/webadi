@@ -1,0 +1,16 @@
+- label: Кафедра "Иностранные языки"
+  items:
+    - name: О кафедре
+      link: /ru/faculty/tiit/kf-im/about
+    - name: Состав кафедры
+      link: /ru/faculty/tiit/kf-im/staff
+    - name: Дисциплины кафедры
+      link: /ru/faculty/tiit/kf-im/discipline
+    - name: Издательская и научная деятельность
+      link: /ru/faculty/tiit/kf-im/science
+    - name: Материально-техническая база
+      link: /ru/faculty/tiit/kf-i/mto
+    - name: Международное сотрудничество
+      link: /ru/faculty/tiit/kf-im/inter
+    - name: Контакты
+      link: /ru/faculty/tiit/kf-im/contacts

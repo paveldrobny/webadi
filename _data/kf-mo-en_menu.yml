@@ -1,0 +1,12 @@
+- label: Department of Organization Management
+  items:
+    - name: About the department
+      link: /en/faculty/tiit/kf-mo/about
+    - name: Staff of the department
+      link: /en/faculty/tiit/kf-mo/staff
+    - name: Science
+      link: /en/faculty/tiit/kf-mo/science
+    - name: Disciplines
+      link: /en/faculty/tiit/kf-mo/discipline
+    - name: Contacts
+      link: /en/faculty/tiit/kf-mo/contacts

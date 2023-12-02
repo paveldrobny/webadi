@@ -1,0 +1,20 @@
+style: is-light
+height: is-small
+items:
+  - title: Факультет
+    subtitle: Дорожно-транспортный
+    icon: fa-space-shuttle
+    description: >
+      The example description text goes here and can be multiple lines.
+      For example, such as this. 
+    call_to_action_name: подробнее...
+    call_to_action_link: /ru/faculty/dt/
+    
+  - title: Факультет
+    subtitle: Транспортные и информационные технологии
+    icon: fa-wrench
+    description: >
+      The example description text goes here and can be multiple lines.
+      For example, such as this.
+    call_to_action_name: подробнее...
+    call_to_action_link: /ru/faculty/tiit/

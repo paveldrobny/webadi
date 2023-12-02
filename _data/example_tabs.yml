@@ -1,0 +1,10 @@
+alignment: is-centered
+style: is-fullwidth
+size: is-mall
+items:
+  - name: СДО е-АДИ
+    link: /page-4/
+    icon: fa-smile-wink
+  - name: Билиотека АДИ
+    link: /page-1/
+    icon: fa-angle-double-right

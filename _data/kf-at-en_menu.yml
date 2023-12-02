@@ -1,0 +1,12 @@
+- label: Department Road Transport
+  items:
+    - name: About the department
+      link: /en/faculty/dt/kf-at/about
+    - name: Staff of the department
+      link: /en/faculty/dt/kf-at/staff
+    - name: Science
+      link: /en/faculty/dt/kf-at/science
+    - name: Disciplines
+      link: /en/faculty/dt/kf-at/discipline
+    - name: Contacts
+      link: /en/faculty/dt/kf-at/contacts

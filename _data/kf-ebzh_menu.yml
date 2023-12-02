@@ -1,0 +1,16 @@
+- label: Кафедра "Экология и безопасность жизнедеятельности"
+  items:
+    - name: О кафедре
+      link: /ru/faculty/dt/kf-ebzh/about
+    - name: Состав кафедры
+      link: /ru/faculty/dt/kf-ebzh/staff
+    - name: Дисциплины кафедры
+      link: /ru/faculty/dt/kf-ebzh/discipline
+    - name: Издательская и научная деятельность
+      link: /ru/faculty/dt/kf-ebzh/science
+    - name: Материально-техническая база
+      link: /ru/faculty/dt/kf-ebzh/mto
+    - name: Международное сотрудничество
+      link: /ru/faculty/dt/kf-ebzh/inter
+    - name: Контакты
+      link: /ru/faculty/dt/kf-ebzh/contacts

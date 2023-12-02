@@ -1,0 +1,16 @@
+- label: Кафедра "Автомобильный транспорт"
+  items:
+    - name: О кафедре
+      link: /ru/faculty/dt/kf-at/about
+    - name: Состав кафедры
+      link: /ru/faculty/dt/kf-at/staff
+    - name: Дисциплины кафедры
+      link: /ru/faculty/dt/kf-at/discipline
+    - name: Издательская и научная деятельность
+      link: /ru/faculty/dt/kf-at/science
+    - name: Материально-техническая база
+      link: /ru/faculty/dt/kf-at/mto
+    - name: Международное сотрудничество
+      link: /ru/faculty/dt/kf-at/inter
+    - name: Контакты
+      link: /ru/faculty/dt/kf-at/contacts

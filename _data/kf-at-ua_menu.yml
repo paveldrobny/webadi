@@ -1,0 +1,12 @@
+- label: Кафедра "Автомобільний транспорт"
+  items:
+    - name: Про кафедру
+      link: /ua/faculty/dt/kf-at/about
+    - name: Склад кафедри
+      link: /ua/faculty/dt/kf-at/staff
+    - name: Наукова діяльність
+      link: /ua/faculty/dt/kf-at/science
+    - name: Дисципліни
+      link: /ua/faculty/dt/kf-at/discipline
+    - name: Контакти
+      link: /ua/faculty/dt/kf-at/contacts

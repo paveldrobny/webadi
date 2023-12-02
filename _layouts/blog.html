@@ -1,0 +1,17 @@
+---
+layout: default-test
+---
+
+{{ content }}
+
+<div class="columns is-multiline">
+  <div class="column is-12">{% include pagination.html %}</div>
+
+  <div class="column is-12 card-flex">
+    {% for post in paginator.posts %} 
+        {% include post-card.html %} 
+    {% endfor %}
+  </div>
+
+  <div class="column is-12">{% include pagination.html %}</div>
+</div>

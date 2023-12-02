@@ -1,0 +1,12 @@
+- label: Кафедра "Загальноінженерних дисциплін"
+  items:
+    - name: Про кафедру
+      link: /ua/faculty/dt/kf-od/about
+    - name: Склад кафедри
+      link: /ua/faculty/dt/kf-od/staff
+    - name: Наукова діяльність
+      link: /ua/faculty/dt/kf-od/science
+    - name: Дисципліни
+      link: /ua/faculty/dt/kf-od/discipline
+    - name: Контакти
+      link: /ua/faculty/dt/kf-od/contacts

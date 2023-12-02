@@ -1,0 +1,18 @@
+---
+layout: post-test
+title: "ВНИМАНИЕ!!! ДОПОЛНИТЕЛЬНЫЙ НАБОР - 2023"
+date: 2023-10-01
+description: "ДОПОЛНИТЕЛЬНЫЙ НАБОР - 2023"
+image: "/doc/2023/abitur/additional.jpg"
+hero_image:
+hero_height: is-medium
+published: true
+excerpt_separator: <!--more-->
+canonical_url:
+author:
+permalink: "blog/9"
+---
+
+<!--more-->
+
+![ДОПОЛНИТЕЛЬНЫЙ НАБОР - 2023](/doc/2023/abitur/additional.jpg)

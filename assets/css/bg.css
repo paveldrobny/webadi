@@ -1,0 +1,21 @@
+.section.b {
+    background-color: rgb(255, 255, 255);
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    /* background-image: url("/img/bodybackg.png"); */
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    }
+.column.b {
+    /* background-color: rgba(51, 102, 102, 0.1); */
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}

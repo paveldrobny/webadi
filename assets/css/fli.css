@@ -1,0 +1,13 @@
+a.o {
+    color: #99CCCC;
+    }
+a.o {
+    color: #99CCCC;
+    text-decoration: none;
+    }
+a.o:visited { 
+    color: #99CCCC;
+    }
+a.o:hover {
+    color: #6699CC;
+    }

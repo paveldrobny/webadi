@@ -1,0 +1,16 @@
+- label: Кафедра "Общеинженерные дисциплины"
+  items:
+    - name: О кафедре
+      link: /ru/faculty/dt/kf-od/about
+    - name: Состав кафедры
+      link: /ru/faculty/dt/kf-od/staff
+    - name: Дисциплины кафедры
+      link: /ru/faculty/dt/kf-od/discipline
+    - name: Издательская и научная деятельность
+      link: /ru/faculty/dt/kf-od/science
+    - name: Материально-техническая база
+      link: /ru/faculty/dt/kf-od/mto
+    - name: Международное сотрудничество
+      link: /ru/faculty/dt/kf-od/inter
+    - name: Контакты
+      link: /ru/faculty/dt/kf-od/contacts

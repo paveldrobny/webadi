@@ -1,0 +1,10 @@
+- label: Факультет Дорожно-транспортный
+  items:
+    - name: Кафедра Автомобільний транспорт
+      link: /ua/faculty/dt/kf-at
+    - name: Кафедра Автомобільні дороги і штучні спорудження
+      link: /ua/faculty/dt/kf-adis
+    - name: Кафедра Загальноінженерних дисциплін
+      link: /ua/faculty/dt/kf-od
+    - name: Кафедра Екологія і безпека життєдіяльності
+      link: /ua/faculty/dt/kf-ebzh

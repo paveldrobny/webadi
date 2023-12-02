@@ -1,0 +1,12 @@
+- label: Department of Foreign Languages
+  items:
+    - name: About the department
+      link: /en/faculty/tiit/kf-im/about
+    - name: Staff of the department
+      link: /en/faculty/tiit/kf-im/staff
+    - name: Science
+      link: /en/faculty/tiit/kf-im/science
+    - name: Disciplines
+      link: /en/faculty/tiit/kf-im/discipline
+    - name: Contacts
+      link: /en/faculty/tiit/kf-im/contacts

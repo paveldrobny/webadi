@@ -1,0 +1,24 @@
+---
+layout: post-test
+title: "Подготовительные курсы"
+date: 2023-05-20
+description: "Подготовительные курсы"
+image: "/img/2023/text_dlya_sayta_podgotovitelne_kursy.jpg"
+hero_image:
+hero_height: is-medium
+published: true
+excerpt_separator: <!--more-->
+canonical_url:
+author:
+tags: ['Студенческая жизнь']
+permalink: "blog/4"
+---
+
+<!--more-->
+
+![Подготовительные курсы](/img/2023/text_dlya_sayta_podgotovitelne_kursy.jpg)
+
+
+- [<u>ЗАЯВЛЕНИЕ</u>](/doc/2023/abitur/zayavlenie_na_podgotovitelnye_kursy.pdf)
+- [<u>ПРИМЕР ЗАЯВЛЕНИЯ</u>](/doc/2023/abitur/Primer_zayavlenia_na_podgotovitelnye_kursy.pdf)
+

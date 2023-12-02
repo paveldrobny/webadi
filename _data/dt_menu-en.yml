@@ -1,0 +1,10 @@
+- label: Faculty of Road Transport
+  items:
+    - name: Department Road Transport
+      link: /en/faculty/dt/kf-at
+    - name: Department Highways and artificial structures
+      link: /en/faculty/dt/kf-adis
+    - name: Department of General Engineering Disciplines
+      link: /en/faculty/dt/kf-od
+    - name: Department Ecology and Life Safety
+      link: /en/faculty/dt/kf-ebzh

@@ -1,0 +1,12 @@
+- label: Факультет Транспортні та інформаційні технології
+  items:
+    - name: Кафедра Менеджмент організацій
+      link: /ua/faculty/tiit/kf-mo
+    - name: Кафедра Транспортні технології
+      link: /ua/faculty/tiit/kf-tt
+    - name: Кафедра Математичне моделювання
+      link: /ua/faculty/tiit/kf-mm
+    - name: Кафедра Громадські науки
+      link: /ua/faculty/tiit/kf-on
+    - name: Кафедра Іноземні мови
+      link: /ua/faculty/tiit/kf-im

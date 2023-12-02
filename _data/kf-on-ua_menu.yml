@@ -1,0 +1,12 @@
+- label: Кафедра "Громадські науки"
+  items:
+    - name: Про кафедру
+      link: /ua/faculty/tiit/kf-on/about
+    - name: Склад кафедри
+      link: /ua/faculty/tiit/kf-on/staff
+    - name: Наукова діяльність
+      link: /ua/faculty/tiit/kf-on/science
+    - name: Дисципліни
+      link: /ua/faculty/tiit/kf-on/discipline
+    - name: Контакти
+      link: /ua/faculty/tiit/kf-on/contacts

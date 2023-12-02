@@ -1,0 +1,16 @@
+- label: Кафедра "Математическое моделирование"
+  items:
+    - name: О кафедре
+      link: /ru/faculty/tiit/kf-mm/about
+    - name: Состав кафедры
+      link: /ru/faculty/tiit/kf-mm/staff
+    - name: Дисциплины кафедры
+      link: /ru/faculty/tiit/kf-mm/discipline
+    - name: Издательская и научная деятельность
+      link: /ru/faculty/tiit/kf-mm/science
+    - name: Материально-техническая база
+      link: /ru/faculty/tiit/kf-mm/mto
+    - name: Международное сотрудничество
+      link: /ru/faculty/tiit/kf-mm/inter
+    - name: Контакты
+      link: /ru/faculty/tiit/kf-mm/contacts

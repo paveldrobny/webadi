@@ -1,0 +1,12 @@
+- label: Department Mathematical modeling
+  items:
+    - name: About the department
+      link: /en/faculty/tiit/kf-mm/about
+    - name: Staff of the department
+      link: /en/faculty/tiit/kf-mm/staff
+    - name: Science
+      link: /en/faculty/tiit/kf-mm/science
+    - name: Disciplines
+      link: /en/faculty/tiit/kf-mm/discipline
+    - name: Contacts
+      link: /en/faculty/tiit/kf-mm/contacts
